@@ -8,7 +8,7 @@ const handleUseCurrentLocation = () => {
       (position) => {
         const lat = position.coords.latitude;
         const lng = position.coords.longitude;
-        console.log(`Latitude: ${lat}, Longitude: ${lng}`);
+        console.log(`Latitude: ${lat}, Logitude: ${lng}`);
         // You can use the latitude and longitude values here for your app logic
         // feed this into uber eats api to get restaurants
       },
