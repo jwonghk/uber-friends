@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^7.1.0",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
     "@react-spring/web": "^9.5.5",
@@ -52,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^7.1.0",
     "@types/elo-rank": "^1.0.1",
     "@types/socket.io-client": "^3.0.0",
     "autoprefixer": "^9.8.8",
